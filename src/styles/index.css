@@ -193,6 +193,17 @@ a {
   box-shadow: 0 16px 28px rgba(79, 202, 134, 0.38);
 }
 
+.icon {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+}
+
+.icon svg {
+  width: 18px;
+  height: 18px;
+}
+
 .contact-actions {
   display: flex;
   flex-wrap: wrap;
@@ -341,6 +352,39 @@ a {
   border: 1px solid rgba(123, 224, 163, 0.14);
 }
 
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.contact-text {
+  margin: 8px 0 0;
+}
+
+.contact-highlight {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(123, 224, 163, 0.08);
+  border: 1px solid rgba(123, 224, 163, 0.2);
+  min-width: 180px;
+}
+
+.contact-highlight svg {
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+}
+
+.contact-location {
+  margin: 4px 0 0;
+  font-weight: 600;
+}
+
 .sidebar-card {
   background: linear-gradient(160deg, rgba(20, 38, 30, 0.95), rgba(15, 30, 24, 0.9));
   border: 1px solid rgba(123, 224, 163, 0.16);
@@ -349,6 +393,35 @@ a {
   display: grid;
   gap: 16px;
   box-shadow: var(--shadow);
+}
+
+.profile-block {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 14px;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 22px;
+  background: rgba(123, 224, 163, 0.12);
+  border: 1px solid rgba(123, 224, 163, 0.3);
+  display: grid;
+  place-items: center;
+}
+
+.profile-photo svg {
+  width: 64px;
+  height: 64px;
+}
+
+.signature {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  margin: 4px 0 0;
+  color: #c9f6dd;
 }
 
 .availability {
@@ -392,6 +465,52 @@ a {
 .metric-label {
   color: var(--muted);
   font-size: 14px;
+}
+
+.impact {
+  display: grid;
+  gap: 12px;
+}
+
+.impact-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.impact-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(123, 224, 163, 0.2);
+  background: rgba(15, 29, 22, 0.7);
+}
+
+.impact-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: rgba(123, 224, 163, 0.12);
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+}
+
+.impact-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.impact-value {
+  margin: 0;
+  font-weight: 700;
+}
+
+.impact-label {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .focus-title {
@@ -462,5 +581,9 @@ a {
   .site-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .contact-header {
+    flex-direction: column;
   }
 }

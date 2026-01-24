@@ -9,6 +9,8 @@
     heroCTA: "Hablemos de tu proyecto",
     availabilityLabel: "Disponibilidad",
     availabilityValue: "Abierto a nuevos proyectos",
+    signatureLabel: "Firma",
+    signatureValue: "Danny A. Bernard",
     aboutEyebrow: "Sobre mi",
     aboutTitle: "Resultados, claridad y foco en el negocio.",
     aboutBody:
@@ -17,6 +19,12 @@
       { value: "4+ años", label: "Experiencia" },
       { value: "3 roles", label: "Sectores" },
       { value: "Remoto", label: "Modalidad" }
+    ],
+    impactTitle: "Impacto",
+    impactMetrics: [
+      { value: "95%", label: "SLA atendido" },
+      { value: "40%", label: "Tiempo reducido" },
+      { value: "+12", label: "Modulos entregados" }
     ],
     focusTitle: "Areas de enfoque",
     focusItems: ["APIs .NET", "Integraciones", "Arquitectura limpia", "Experiencia usuario"],
@@ -88,9 +96,12 @@
         year: "2022"
       }
     ],
+    contactEyebrow: "Hablemos",
     contactTitle: "Contacto",
     contactText:
       "Disponible para nuevos retos, colaboraciones o consultoria. Respondo en menos de 24 horas.",
+    contactLocationLabel: "Ubicacion",
+    contactLocationValue: "Remoto · Colombia",
     contactCTA: "Escribeme",
     contactLinkedInLabel: "Ver LinkedIn",
     contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
@@ -106,6 +117,8 @@
     heroCTA: "Let’s talk about your project",
     availabilityLabel: "Availability",
     availabilityValue: "Open to new projects",
+    signatureLabel: "Signature",
+    signatureValue: "Danny A. Bernard",
     aboutEyebrow: "About",
     aboutTitle: "Results, clarity, and business focus.",
     aboutBody:
@@ -114,6 +127,12 @@
       { value: "4+ years", label: "Experience" },
       { value: "3 roles", label: "Industries" },
       { value: "Remote", label: "Work mode" }
+    ],
+    impactTitle: "Impact",
+    impactMetrics: [
+      { value: "95%", label: "SLA met" },
+      { value: "40%", label: "Time reduced" },
+      { value: "+12", label: "Modules shipped" }
     ],
     focusTitle: "Focus areas",
     focusItems: [".NET APIs", "Integrations", "Clean architecture", "User experience"],
@@ -185,9 +204,12 @@
         year: "2022"
       }
     ],
+    contactEyebrow: "Let’s connect",
     contactTitle: "Contact",
     contactText:
       "Open to new challenges, collaborations, or consulting. I reply within 24 hours.",
+    contactLocationLabel: "Location",
+    contactLocationValue: "Remote · Colombia",
     contactCTA: "Email me",
     contactLinkedInLabel: "View LinkedIn",
     contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
