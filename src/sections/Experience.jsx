@@ -1,6 +1,6 @@
 ﻿export default function Experience({ t }) {
   return (
-    <section className="section">
+    <section className="section reveal">
       <h3>{t.experienceTitle}</h3>
       <div className="timeline">
         {t.experience.map((item) => (

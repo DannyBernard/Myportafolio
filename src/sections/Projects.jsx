@@ -1,6 +1,6 @@
 ﻿export default function Projects({ t }) {
   return (
-    <section className="section">
+    <section className="section reveal">
       <h3>{t.projectsTitle}</h3>
       <div className="grid">
         {t.projects.map((project) => (

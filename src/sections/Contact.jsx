@@ -1,6 +1,6 @@
 ﻿export default function Contact({ t }) {
   return (
-    <section className="section contact">
+    <section className="section contact reveal">
       <h3>{t.contactTitle}</h3>
       <p>{t.contactText}</p>
       <div className="contact-actions">

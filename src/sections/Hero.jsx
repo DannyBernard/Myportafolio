@@ -1,7 +1,7 @@
 ﻿export default function Hero({ t }) {
   return (
     <section className="hero">
-      <div className="hero-content">
+      <div className="hero-content reveal">
         <p className="eyebrow">{t.role}</p>
         <h2>{t.heroTitle}</h2>
         <p className="hero-summary">{t.heroSummary}</p>
@@ -9,7 +9,7 @@
           {t.heroCTA}
         </a>
       </div>
-      <div className="hero-card">
+      <div className="hero-card reveal">
         <h3>Stack</h3>
         <ul>
           {t.skills.slice(0, 4).map((skill) => (

@@ -1,6 +1,6 @@
 ﻿export default function Skills({ t }) {
   return (
-    <section className="section">
+    <section className="section reveal">
       <h3>{t.skillsTitle}</h3>
       <div className="tags">
         {t.skills.map((skill) => (
