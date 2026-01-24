@@ -1,7 +1,7 @@
 ﻿export const translations = {
   es: {
     name: "Danny Alberto Bernard Martinez",
-    role: "Desarrollador Fullstack .NET",
+    role: "Desarrollador de software",
     languageLabel: "Idioma",
     heroTitle: "Construyo software confiable y escalable para negocios reales.",
     heroSummary:
@@ -45,11 +45,25 @@
     experienceTitle: "Experiencia laboral",
     experience: [
       {
-        company: "Somos Marker",
-        role: "Desarrollador Fullstack .NET",
-        period: "2023 - Actualidad",
+        company: "Makers Solutions S.A.S",
+        role: "Desarrollador de software",
+        period: "ago. 2023 - actualidad",
         details:
-          "Desarrollo de APIs, integraciones con terceros y modulos web para clientes regionales."
+          "Desarrollo de modulos, mejoras a funcionalidades existentes y soporte a usuarios para optimizar la usabilidad."
+      },
+      {
+        company: "Independiente",
+        role: "Freelance Developer",
+        period: "oct. 2021 - actualidad",
+        details:
+          "Implementacion de nuevos modulos, cambios bajo requerimientos y soporte funcional a clientes."
+      },
+      {
+        company: "Asociacion Duarte de Ahorros y Prestamos",
+        role: "Desarrollador de software",
+        period: "sept. 2021 - ago. 2023",
+        details:
+          "Mantenimiento de aplicaciones internas y desarrollo de funcionalidades para operaciones financieras."
       }
     ],
     educationTitle: "Educacion",
@@ -64,11 +78,13 @@
     contactText:
       "Disponible para nuevos retos, colaboraciones o consultoria. Respondo en menos de 24 horas.",
     contactCTA: "Escribeme",
+    contactLinkedInLabel: "Ver LinkedIn",
+    contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
     footer: "Portafolio de Danny Alberto Bernard Martinez"
   },
   en: {
     name: "Danny Alberto Bernard Martinez",
-    role: ".NET Fullstack Developer",
+    role: "Software Developer",
     languageLabel: "Language",
     heroTitle: "I build reliable, scalable software for real businesses.",
     heroSummary:
@@ -112,11 +128,25 @@
     experienceTitle: "Experience",
     experience: [
       {
-        company: "Somos Marker",
-        role: ".NET Fullstack Developer",
-        period: "2023 - Present",
+        company: "Makers Solutions S.A.S",
+        role: "Software Developer",
+        period: "Aug 2023 - Present",
         details:
-          "API development, third-party integrations, and web modules for regional clients."
+          "Module development, improvements to existing features, and user support to enhance usability."
+      },
+      {
+        company: "Independent",
+        role: "Freelance Developer",
+        period: "Oct 2021 - Present",
+        details:
+          "New modules, changes based on requirements, and functional support for clients."
+      },
+      {
+        company: "Asociacion Duarte de Ahorros y Prestamos",
+        role: "Software Developer",
+        period: "Sep 2021 - Aug 2023",
+        details:
+          "Internal application maintenance and feature development for financial operations."
       }
     ],
     educationTitle: "Education",
@@ -131,6 +161,8 @@
     contactText:
       "Open to new challenges, collaborations, or consulting. I reply within 24 hours.",
     contactCTA: "Email me",
+    contactLinkedInLabel: "View LinkedIn",
+    contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
     footer: "Portfolio of Danny Alberto Bernard Martinez"
   }
 };

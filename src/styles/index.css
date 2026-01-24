@@ -115,6 +115,23 @@ a {
   font-weight: 600;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.secondary-cta {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: transparent;
+  font-weight: 600;
+}
+
 .section {
   display: flex;
   flex-direction: column;
