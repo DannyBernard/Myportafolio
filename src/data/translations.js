@@ -3,20 +3,21 @@
     name: "Danny Alberto Bernard Martinez",
     role: "Desarrollador de software",
     languageLabel: "Idioma",
-    heroTitle: "Construyo software confiable y escalable para negocios reales.",
+    heroTitle:
+      "Construyo sistemas .NET que escalan con precision y convierten complejidad tecnica en valor de negocio.",
     heroSummary:
-      "Ingeniero en Sistemas con enfoque en soluciones web y APIs. Me especializo en .NET, integraciones y experiencias front-end que priorizan rendimiento, seguridad y mantenibilidad.",
-    heroCTA: "Hablemos de tu proyecto",
+      "Diseno y desarrollo soluciones backend y full-stack enfocadas en estabilidad, rendimiento y evolucion del producto. Tomo decisiones tecnicas con vision de negocio para reducir deuda, acelerar entregas y mantener el software confiable a largo plazo.",
+    heroCTA: "Construyamos algo escalable",
     availabilityLabel: "Disponibilidad",
     availabilityValue: "Abierto a nuevos proyectos",
     signatureLabel: "Firma",
     signatureValue: "Danny A. Bernard",
     aboutEyebrow: "Sobre mi",
-    aboutTitle: "Resultados, claridad y foco en el negocio.",
+    aboutTitle: "Arquitectura clara y decisiones con impacto real.",
     aboutBody:
-      "Desarrollador de software con experiencia en proyectos .NET, integraciones y soporte funcional. Trabajo con equipos remotos y priorizo soluciones limpias y mantenibles.",
+      "Desarrollador de software con +4 anos en .NET. Trabajo desde la arquitectura hasta la entrega, priorizando diseno limpio, integracion segura y escalabilidad. Mi foco es traducir necesidades de negocio en sistemas mantenibles que crezcan sin sorpresas.",
     metrics: [
-      { value: "4+ años", label: "Experiencia" },
+      { value: "4+ anos", label: "Experiencia" },
       { value: "3 roles", label: "Sectores" },
       { value: "Remoto", label: "Modalidad" }
     ],
@@ -28,7 +29,7 @@
     ],
     focusTitle: "Areas de enfoque",
     focusItems: ["APIs .NET", "Integraciones", "Arquitectura limpia", "Experiencia usuario"],
-    skillsTitle: "Habilidades tecnicas",
+    skillsTitle: "Stack principal",
     skills: [
       "C# / .NET",
       "ASP.NET Core",
@@ -39,27 +40,45 @@
       "Azure",
       "CI/CD"
     ],
+    skillsGroups: [
+      {
+        title: "Backend",
+        items: ["C# / .NET", "ASP.NET Core", "Entity Framework"]
+      },
+      {
+        title: "Cloud & DevOps",
+        items: ["Azure", "CI/CD", "Azure DevOps"]
+      },
+      {
+        title: "Data",
+        items: ["SQL Server"]
+      },
+      {
+        title: "Frontend",
+        items: ["React"]
+      }
+    ],
     projectsTitle: "Proyectos destacados",
     projectLinkLabel: "Ver proyecto",
     projects: [
       {
         title: "Suite de gestion comercial",
         description:
-          "Plataforma para centralizar ventas, inventario y reportes en tiempo real.",
+          "Contexto: operacion distribuida sin una vista unificada. Solucion: APIs en .NET + SQL Server con modulos desacoplados y reportes en tiempo real. Impacto: [KPI: tiempos de cierre reducidos].",
         tech: "C#, .NET, SQL Server, Azure",
         link: "https://example.com"
       },
       {
         title: "Portal de clientes",
         description:
-          "Experiencia self-service para seguimiento de pedidos y soporte.",
+          "Contexto: necesidad de autoservicio y trazabilidad. Solucion: React + ASP.NET Core con endpoints seguros y trazas completas. Impacto: [KPI: menos tickets y mayor adopcion].",
         tech: "ASP.NET Core, React, REST",
         link: "https://example.com"
       },
       {
         title: "Integrador de pagos",
         description:
-          "Microservicio para orquestar gateways y conciliaciones automaticas.",
+          "Contexto: multiples gateways y conciliacion manual. Solucion: microservicio .NET con procesos asincronos y control de errores. Impacto: [KPI: menor error operativo].",
         tech: ".NET, Azure Functions, SQL",
         link: "https://example.com"
       }
@@ -102,7 +121,7 @@
       "Disponible para nuevos retos, colaboraciones o consultoria. Respondo en menos de 24 horas.",
     contactLocationLabel: "Ubicacion",
     contactLocationValue: "Remoto · Colombia",
-    contactCTA: "Escribeme",
+    contactCTA: "Lleva tu producto al siguiente nivel",
     contactLinkedInLabel: "Ver LinkedIn",
     contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
     footer: "Portafolio de Danny Alberto Bernard Martinez"
@@ -111,18 +130,19 @@
     name: "Danny Alberto Bernard Martinez",
     role: "Software Developer",
     languageLabel: "Language",
-    heroTitle: "I build reliable, scalable software for real businesses.",
+    heroTitle:
+      "Engineering .NET systems that scale with precision and turn complexity into business value.",
     heroSummary:
-      "Systems Engineer focused on web solutions and APIs. Specialized in .NET, integrations, and front-end experiences that prioritize performance, security, and maintainability.",
-    heroCTA: "Let’s talk about your project",
+      "I design and ship backend and full-stack solutions focused on stability, performance, and long-term product evolution. I make technical decisions with business impact in mind.",
+    heroCTA: "Let’s build something scalable",
     availabilityLabel: "Availability",
     availabilityValue: "Open to new projects",
     signatureLabel: "Signature",
     signatureValue: "Danny A. Bernard",
     aboutEyebrow: "About",
-    aboutTitle: "Results, clarity, and business focus.",
+    aboutTitle: "Clear architecture, measurable outcomes.",
     aboutBody:
-      "Software developer with experience in .NET projects, integrations, and functional support. I work with remote teams and prioritize clean, maintainable solutions.",
+      "Software developer with 4+ years in .NET. I work from architecture to delivery, prioritizing clean design, secure integrations, and scalable systems that grow without surprises.",
     metrics: [
       { value: "4+ years", label: "Experience" },
       { value: "3 roles", label: "Industries" },
@@ -136,7 +156,7 @@
     ],
     focusTitle: "Focus areas",
     focusItems: [".NET APIs", "Integrations", "Clean architecture", "User experience"],
-    skillsTitle: "Technical skills",
+    skillsTitle: "Primary stack",
     skills: [
       "C# / .NET",
       "ASP.NET Core",
@@ -147,27 +167,45 @@
       "Azure",
       "CI/CD"
     ],
+    skillsGroups: [
+      {
+        title: "Backend",
+        items: ["C# / .NET", "ASP.NET Core", "Entity Framework"]
+      },
+      {
+        title: "Cloud & DevOps",
+        items: ["Azure", "CI/CD", "Azure DevOps"]
+      },
+      {
+        title: "Data",
+        items: ["SQL Server"]
+      },
+      {
+        title: "Frontend",
+        items: ["React"]
+      }
+    ],
     projectsTitle: "Featured projects",
     projectLinkLabel: "View project",
     projects: [
       {
         title: "Commercial management suite",
         description:
-          "Platform to centralize sales, inventory, and real-time reporting.",
+          "Context: fragmented operations with no unified view. Solution: .NET APIs + SQL Server with decoupled modules and real-time reporting. Impact: [KPI: faster close cycles].",
         tech: "C#, .NET, SQL Server, Azure",
         link: "https://example.com"
       },
       {
         title: "Customer portal",
         description:
-          "Self-service experience for order tracking and support.",
+          "Context: need for self-service and tracking. Solution: React + ASP.NET Core with secure endpoints and full traceability. Impact: [KPI: fewer tickets, higher adoption].",
         tech: "ASP.NET Core, React, REST",
         link: "https://example.com"
       },
       {
         title: "Payments orchestrator",
         description:
-          "Microservice to orchestrate gateways and automated reconciliations.",
+          "Context: multiple gateways and manual reconciliation. Solution: .NET microservice with async flows and error control. Impact: [KPI: lower operational error].",
         tech: ".NET, Azure Functions, SQL",
         link: "https://example.com"
       }
@@ -210,7 +248,7 @@
       "Open to new challenges, collaborations, or consulting. I reply within 24 hours.",
     contactLocationLabel: "Location",
     contactLocationValue: "Remote · Colombia",
-    contactCTA: "Email me",
+    contactCTA: "Take your product to the next level",
     contactLinkedInLabel: "View LinkedIn",
     contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
     footer: "Portfolio of Danny Alberto Bernard Martinez"
