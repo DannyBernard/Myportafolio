@@ -1,6 +1,6 @@
 ﻿export default function Education({ t }) {
   return (
-    <section className="section reveal">
+    <section id="educacion" className="section reveal">
       <h3 className="section-title">{t.educationTitle}</h3>
       <div className="timeline">
         {t.education.map((item) => (

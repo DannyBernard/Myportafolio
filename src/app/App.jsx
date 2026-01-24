@@ -49,6 +49,14 @@ export default function App() {
             <p className="role">{t.role}</p>
           </div>
         </div>
+        <nav className="site-nav" aria-label="Primary">
+          <a href="#inicio">{t.nav.home}</a>
+          <a href="#stack">{t.nav.stack}</a>
+          <a href="#proyectos">{t.nav.projects}</a>
+          <a href="#experiencia">{t.nav.experience}</a>
+          <a href="#educacion">{t.nav.education}</a>
+          <a href="#contacto">{t.nav.contact}</a>
+        </nav>
         <LanguageSwitcher lang={lang} onChange={setLang} />
       </header>
 

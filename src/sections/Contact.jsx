@@ -1,6 +1,6 @@
 ﻿export default function Contact({ t }) {
   return (
-    <section className="section contact reveal">
+    <section id="contacto" className="section contact reveal">
       <div className="contact-header">
         <div>
           <p className="eyebrow">{t.contactEyebrow}</p>

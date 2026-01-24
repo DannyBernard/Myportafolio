@@ -1,6 +1,6 @@
 ﻿export default function Skills({ t }) {
   return (
-    <section className="section reveal">
+    <section id="stack" className="section reveal">
       <h3 className="section-title">{t.skillsTitle}</h3>
       <div className="stack-grid">
         {t.skillsGroups.map((group) => (

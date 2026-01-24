@@ -1,6 +1,6 @@
 ﻿export default function Hero({ t }) {
   return (
-    <section className="hero">
+    <section id="inicio" className="hero">
       <div className="hero-content reveal">
         <div className="hero-status">
           <span className="status-dot" aria-hidden="true" />

@@ -124,6 +124,14 @@
     contactCTA: "Lleva tu producto al siguiente nivel",
     contactLinkedInLabel: "Ver LinkedIn",
     contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
+    nav: {
+      home: "Inicio",
+      stack: "Stack",
+      projects: "Proyectos",
+      experience: "Experiencia",
+      education: "Educacion",
+      contact: "Contacto"
+    },
     footer: "Portafolio de Danny Alberto Bernard Martinez"
   },
   en: {
@@ -251,6 +259,14 @@
     contactCTA: "Take your product to the next level",
     contactLinkedInLabel: "View LinkedIn",
     contactLinkedInUrl: "https://www.linkedin.com/in/dannybernard",
+    nav: {
+      home: "Home",
+      stack: "Stack",
+      projects: "Projects",
+      experience: "Experience",
+      education: "Education",
+      contact: "Contact"
+    },
     footer: "Portfolio of Danny Alberto Bernard Martinez"
   }
 };
