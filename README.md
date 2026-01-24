@@ -18,6 +18,6 @@ Portafolio en React con selector de idioma ES/EN y estructura limpia.
 - Secciones: src/sections/
 
 ## Deploy en GitHub Pages
-1) Cambia `REPO_NAME` en `vite.config.js` por el nombre real del repo.
-2) Ejecuta `npm install`.
-3) Ejecuta `npm run deploy`.
+1) Ejecuta `npm install`.
+2) Haz push a `main`.
+3) En GitHub: Settings → Pages → Build and deployment → Source: GitHub Actions.
