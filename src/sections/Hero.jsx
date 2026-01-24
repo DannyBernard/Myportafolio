@@ -10,7 +10,7 @@
         </a>
       </div>
       <div className="hero-card reveal">
-        <h3>Stack</h3>
+        <h3 className="card-title">Stack</h3>
         <ul>
           {t.skills.slice(0, 4).map((skill) => (
             <li key={skill}>{skill}</li>

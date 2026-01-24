@@ -7,6 +7,8 @@
     heroSummary:
       "Ingeniero en Sistemas con enfoque en soluciones web y APIs. Me especializo en .NET, integraciones y experiencias front-end que priorizan rendimiento, seguridad y mantenibilidad.",
     heroCTA: "Hablemos de tu proyecto",
+    availabilityLabel: "Disponibilidad",
+    availabilityValue: "Abierto a nuevos proyectos",
     aboutEyebrow: "Sobre mi",
     aboutTitle: "Resultados, claridad y foco en el negocio.",
     aboutBody:
@@ -16,6 +18,8 @@
       { value: "3 roles", label: "Sectores" },
       { value: "Remoto", label: "Modalidad" }
     ],
+    focusTitle: "Areas de enfoque",
+    focusItems: ["APIs .NET", "Integraciones", "Arquitectura limpia", "Experiencia usuario"],
     skillsTitle: "Habilidades tecnicas",
     skills: [
       "C# / .NET",
@@ -28,6 +32,7 @@
       "CI/CD"
     ],
     projectsTitle: "Proyectos destacados",
+    projectLinkLabel: "Ver proyecto",
     projects: [
       {
         title: "Suite de gestion comercial",
@@ -99,6 +104,8 @@
     heroSummary:
       "Systems Engineer focused on web solutions and APIs. Specialized in .NET, integrations, and front-end experiences that prioritize performance, security, and maintainability.",
     heroCTA: "Let’s talk about your project",
+    availabilityLabel: "Availability",
+    availabilityValue: "Open to new projects",
     aboutEyebrow: "About",
     aboutTitle: "Results, clarity, and business focus.",
     aboutBody:
@@ -108,6 +115,8 @@
       { value: "3 roles", label: "Industries" },
       { value: "Remote", label: "Work mode" }
     ],
+    focusTitle: "Focus areas",
+    focusItems: [".NET APIs", "Integrations", "Clean architecture", "User experience"],
     skillsTitle: "Technical skills",
     skills: [
       "C# / .NET",
@@ -120,6 +129,7 @@
       "CI/CD"
     ],
     projectsTitle: "Featured projects",
+    projectLinkLabel: "View project",
     projects: [
       {
         title: "Commercial management suite",
