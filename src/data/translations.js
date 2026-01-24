@@ -7,6 +7,15 @@
     heroSummary:
       "Ingeniero en Sistemas con enfoque en soluciones web y APIs. Me especializo en .NET, integraciones y experiencias front-end que priorizan rendimiento, seguridad y mantenibilidad.",
     heroCTA: "Hablemos de tu proyecto",
+    aboutEyebrow: "Sobre mi",
+    aboutTitle: "Resultados, claridad y foco en el negocio.",
+    aboutBody:
+      "Desarrollador de software con experiencia en proyectos .NET, integraciones y soporte funcional. Trabajo con equipos remotos y priorizo soluciones limpias y mantenibles.",
+    metrics: [
+      { value: "4+ años", label: "Experiencia" },
+      { value: "3 roles", label: "Sectores" },
+      { value: "Remoto", label: "Modalidad" }
+    ],
     skillsTitle: "Habilidades tecnicas",
     skills: [
       "C# / .NET",
@@ -90,6 +99,15 @@
     heroSummary:
       "Systems Engineer focused on web solutions and APIs. Specialized in .NET, integrations, and front-end experiences that prioritize performance, security, and maintainability.",
     heroCTA: "Let’s talk about your project",
+    aboutEyebrow: "About",
+    aboutTitle: "Results, clarity, and business focus.",
+    aboutBody:
+      "Software developer with experience in .NET projects, integrations, and functional support. I work with remote teams and prioritize clean, maintainable solutions.",
+    metrics: [
+      { value: "4+ years", label: "Experience" },
+      { value: "3 roles", label: "Industries" },
+      { value: "Remote", label: "Work mode" }
+    ],
     skillsTitle: "Technical skills",
     skills: [
       "C# / .NET",
