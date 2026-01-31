@@ -6,7 +6,7 @@
     heroTitle:
       "Construyo sistemas .NET que escalan con precision y convierten complejidad tecnica en valor de negocio.",
     heroSummary:
-      "Diseno y desarrollo soluciones backend y full-stack enfocadas en estabilidad, rendimiento y evolucion del producto. Tomo decisiones tecnicas con vision de negocio para reducir deuda, acelerar entregas y mantener el software confiable a largo plazo.",
+      "Diseno soluciones backend y full-stack enfocadas en estabilidad, rendimiento y evolucion del producto. Priorizo decisiones tecnicas con impacto en negocio: menos deuda, entregas mas rapidas y software confiable a largo plazo.",
     heroCTA: "Construyamos algo escalable",
     availabilityLabel: "Disponibilidad",
     availabilityValue: "Abierto a nuevos proyectos",
@@ -15,7 +15,7 @@
     aboutEyebrow: "Sobre mi",
     aboutTitle: "Arquitectura clara y decisiones con impacto real.",
     aboutBody:
-      "Desarrollador de software con +4 anos en .NET. Trabajo desde la arquitectura hasta la entrega, priorizando diseno limpio, integracion segura y escalabilidad. Mi foco es traducir necesidades de negocio en sistemas mantenibles que crezcan sin sorpresas.",
+      "Desarrollador de software con +4 anos en .NET. Trabajo desde la arquitectura hasta la entrega, priorizando diseno limpio, integracion segura y escalabilidad. Traduzco necesidades del negocio en sistemas mantenibles que crecen sin sorpresas.",
     metrics: [
       { value: "4+ anos", label: "Experiencia" },
       { value: "3 roles", label: "Sectores" },
@@ -38,7 +38,9 @@
       "React",
       "REST APIs",
       "Azure",
-      "CI/CD"
+      "CI/CD",
+      "Oracle PL/SQL",
+      "Azure DevOps"
     ],
     skillsGroups: [
       {
@@ -62,25 +64,23 @@
     projectLinkLabel: "Ver proyecto",
     projects: [
       {
-        title: "Suite de gestion comercial",
+        title: "Dwald Loan",
         description:
-          "Contexto: operacion distribuida sin una vista unificada. Solucion: APIs en .NET + SQL Server con modulos desacoplados y reportes en tiempo real. Impacto: [KPI: tiempos de cierre reducidos].",
-        tech: "C#, .NET, SQL Server, Azure",
-        link: "https://example.com"
+          "Contexto: prestamos fragmentados sin vista unificada. Solucion: APIs .NET + SQL Server con modulos desacoplados, panel web y app movil. Impacto: [KPI: ciclos de cierre mas rapidos].",
+        tech: "C#, .NET, SQL Server, React Native",
       },
       {
         title: "Portal de clientes",
         description:
-          "Contexto: necesidad de autoservicio y trazabilidad. Solucion: React + ASP.NET Core con endpoints seguros y trazas completas. Impacto: [KPI: menos tickets y mayor adopcion].",
+          "Contexto: necesidad de autoservicio y trazabilidad. Solucion: React + ASP.NET Core con endpoints seguros y trazabilidad completa. Impacto: [KPI: menos tickets y mayor adopcion].",
         tech: "ASP.NET Core, React, REST",
         link: "https://example.com"
       },
       {
-        title: "Integrador de pagos",
+        title: "Dwald POS",
         description:
-          "Contexto: multiples gateways y conciliacion manual. Solucion: microservicio .NET con procesos asincronos y control de errores. Impacto: [KPI: menor error operativo].",
-        tech: ".NET, Azure Functions, SQL",
-        link: "https://example.com"
+          "Contexto: puntos de venta fragmentados sin integracion. Solucion: microservicio .NET con Azure Functions y SQL Server. Impacto: [KPI: mayor eficiencia operativa].",
+        tech: ".NET, ASP.NET Core, SQL Server",
       }
     ],
     experienceTitle: "Experiencia laboral",
@@ -90,7 +90,7 @@
         role: "Desarrollador de software",
         period: "ago. 2023 - actualidad",
         details:
-          "Desarrollo de modulos, mejoras a funcionalidades existentes y soporte a usuarios para optimizar la usabilidad."
+          "Desarrollo de modulos, mejoras a funcionalidades existentes e integraciones. Soporte a usuarios para optimizar la usabilidad."
       },
       {
         company: "Independiente",
@@ -112,7 +112,7 @@
       {
         degree: "Ingeniero en Sistemas",
         school: "Universidad Catolica Norfestada",
-        year: "2022"
+        year: "2015-2020"
       }
     ],
     contactEyebrow: "Hablemos",
@@ -141,7 +141,7 @@
     heroTitle:
       "Engineering .NET systems that scale with precision and turn complexity into business value.",
     heroSummary:
-      "I design and ship backend and full-stack solutions focused on stability, performance, and long-term product evolution. I make technical decisions with business impact in mind.",
+      "I design backend and full-stack solutions focused on stability, performance, and long-term product evolution. I prioritize technical decisions with business impact: less debt, faster delivery, and reliable software.",
     heroCTA: "Let’s build something scalable",
     availabilityLabel: "Availability",
     availabilityValue: "Open to new projects",
@@ -197,11 +197,10 @@
     projectLinkLabel: "View project",
     projects: [
       {
-        title: "Commercial management suite",
+        title: "Dwald Loan",
         description:
-          "Context: fragmented operations with no unified view. Solution: .NET APIs + SQL Server with decoupled modules and real-time reporting. Impact: [KPI: faster close cycles].",
-        tech: "C#, .NET, SQL Server, Azure",
-        link: "https://example.com"
+          "Context: loan operations with no unified view. Solution: .NET APIs + SQL Server with decoupled modules, web panel, and mobile app. Impact: [KPI: faster close cycles].",
+        tech: "C#, .NET, SQL Server, React Native",
       },
       {
         title: "Customer portal",
@@ -211,11 +210,10 @@
         link: "https://example.com"
       },
       {
-        title: "Payments orchestrator",
+        title: "Dwald POS",
         description:
-          "Context: multiple gateways and manual reconciliation. Solution: .NET microservice with async flows and error control. Impact: [KPI: lower operational error].",
-        tech: ".NET, Azure Functions, SQL",
-        link: "https://example.com"
+          "Context: fragmented point-of-sale systems without integration. Solution: .NET microservice with Azure Functions and SQL Server. Impact: [KPI: higher operational efficiency].",
+        tech: ".NET, ASP.NET Core, SQL Server",
       }
     ],
     experienceTitle: "Experience",
@@ -225,7 +223,7 @@
         role: "Software Developer",
         period: "Aug 2023 - Present",
         details:
-          "Module development, improvements to existing features, and user support to enhance usability."
+          "Module development, improvements to existing features, integrations, and user support to enhance usability."
       },
       {
         company: "Independent",
@@ -247,7 +245,7 @@
       {
         degree: "Systems Engineering",
         school: "Universidad Catolica Norfestada",
-        year: "2022"
+        year: "2015-2020"
       }
     ],
     contactEyebrow: "Let’s connect",
