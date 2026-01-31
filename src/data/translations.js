@@ -70,13 +70,6 @@
         tech: "C#, .NET, SQL Server, React Native",
       },
       {
-        title: "Portal de clientes",
-        description:
-          "Contexto: necesidad de autoservicio y trazabilidad. Solucion: React + ASP.NET Core con endpoints seguros y trazabilidad completa. Impacto: [KPI: menos tickets y mayor adopcion].",
-        tech: "ASP.NET Core, React, REST",
-        link: "https://example.com"
-      },
-      {
         title: "Dwald POS",
         description:
           "Contexto: puntos de venta fragmentados sin integracion. Solucion: microservicio .NET con Azure Functions y SQL Server. Impacto: [KPI: mayor eficiencia operativa].",
@@ -201,13 +194,6 @@
         description:
           "Context: loan operations with no unified view. Solution: .NET APIs + SQL Server with decoupled modules, web panel, and mobile app. Impact: [KPI: faster close cycles].",
         tech: "C#, .NET, SQL Server, React Native",
-      },
-      {
-        title: "Customer portal",
-        description:
-          "Context: need for self-service and tracking. Solution: React + ASP.NET Core with secure endpoints and full traceability. Impact: [KPI: fewer tickets, higher adoption].",
-        tech: "ASP.NET Core, React, REST",
-        link: "https://example.com"
       },
       {
         title: "Dwald POS",
